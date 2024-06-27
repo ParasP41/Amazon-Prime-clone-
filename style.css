@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+  }
+  .nav {
+    background-color: black;
+    height: 47px;
+    color: #aaaaaa;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .main-nav {
+    display: flex;
+    gap: 50px;
+  }
+  .item-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .main-first {
+    background-image: url("MLP.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 47rem;
+  }
+  .main-sec {
+    background-image: url("TVOD_MLP_Right.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 47rem;
+  }
+  .main-third
+  {
+    height: 47rem;
+    display: flex;
+  }
+  .zero {
+    color: white;
+  }
+  button {
+    background-color: #0f79af;
+    color: white;
+    font-size: 17px;
+    height: 47px;
+    width: 257px;
+    border-radius: 5px;
+  }
+  p {
+    font-size: 30px;
+  }
+  .cont-first {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    width: 41vw;
+    position: relative;
+    top: 15vh;
+    left: 5vw;
+  }
+  .cont-sec
+  {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    width: 41vw;
+    position: relative;
+    top:20vh;
+    left: 5vw;
+  }
+  .cont-third
+  {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    width: 39vw;
+    position: relative;
+    top:5vh;
+    left: 5vw;
+  }
+  h1
+  {
+    font-size: 45px;
+  }
+  .call
+  {
+    position: relative;
+    left: 12vw;
+    top: 5vh;
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw;
+    grid-template-rows: 23vh 23vh 23vh;
+}
+  .king
+  {
+    height: 161px;
+    width: 233px;
+  }
+  .king:hover
+  {
+    box-shadow: 1px 3px 6px black;
+  }
+  .foot
+  {
+    height: 135px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .foot-main
+  {
+    text-align: center;
+  }
+  .term
+  {
+    display: flex;
+    color: #79B8F3;
+    justify-content: center;
+    font-size: 17px;
+    gap: 15px;
+  }
+  .inc
+  {
+    font-size: 17px;
+    color: #8197A4;
+  }
